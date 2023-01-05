@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav title */
+.nav title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{
+    color: chartreuse;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 200px;
+}
+.btn-primary{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+/* banner styles */
+.banner{
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    font-size: 85PX;
+    font-weight: 700px;
+}
+.banner-sub-title{
+    font-size: 45PX;
+    font-weight: 600PX;
+    margin-bottom: 20px;
+}
+.header{
+    background-color: floralwhite;
+    background-image: url(developer-portfolio-main/developer-portfolio-main/images/header_bg.png), url(developer-portfolio-main/developer-portfolio-main/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/* main*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section */
+.about{
+    margin-top: 130px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+
+}
+.section-description{
+    color: blanchedalmond;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700px;
+    font-size: 20px;
+    color: #474747;
+}
