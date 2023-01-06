@@ -94,3 +94,22 @@ main{
 .what-i-do{
     margin-top: 130px;
 }
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #ffffff;
+    box-shadow: opx 6px 50px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
